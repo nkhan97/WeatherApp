@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawsome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="content">
+        <form id="form">
+            <input type="text" class="cityName" placeholder="Search by City">
+            <button type="submit" class="search" id="search"><i class="fas fa-search"></i></button>
+        </form>
+        <div class="data">
+            <div class="location-details">
+                <h1 class="name"></h1>
+            </div>
+            <div class="weather-status">
+                <h1 class="temp"></h1>
+                <p class="feels-like"></p>
+                <p class="minMax-temp"></p>
+                <h3 class="desc"></h3>
+                <div class="icon"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
